@@ -46,7 +46,8 @@ k = 55
 while k > 50:
     print(k)
     k -= 50:
-    break
+    if k == 50:
+        break
 
 '''For Loops'''
 #4) Create a list named sports. Put three sports into the list. Create
@@ -68,7 +69,7 @@ for Daniel in DanielCeasar:
 movies = ["It", "guardians of the galaxy", "Ratatouille", "The princess and the frog", "Avatar"]
 for movie in movies:
     print(movie)
-    if movie == "Avatar:
+    if movie == "Avatar":
     break
     
 
